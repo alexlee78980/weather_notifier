@@ -1,8 +1,10 @@
 import requests
+import os
 from twilio.rest import Client
 
+#free accounts so dont need to encrypt
 account_sid = "AC3dc2b8fa0586bf79feb8376dd0b4cf48"
-auth_token = "e967117c3ac87cd645a372327538b5de"
+auth_token = "2e72d8441686e39e72d66c9968cc7489"
 weather_params = {
     "lat": 49.2497,
     "lon": -123.1193,
